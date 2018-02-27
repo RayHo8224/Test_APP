@@ -1,0 +1,22 @@
+{
+  "name": "Test_APP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.5"
+  }
+}

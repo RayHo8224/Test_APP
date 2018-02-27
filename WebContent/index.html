@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body ng-app="myApp">
+<div ng-controller="myController as ctrl">
+	<p >myController AgFoo output is {{ctrl.AgFoo}}</p>
+	<p >myController function AgBar output is {{ctrl.AgBar('Foo')}}</p>
+</div>
+</body>
+<script src="bower_components/require.js" data-main="modules/base/main.js"></script>
+</html>
